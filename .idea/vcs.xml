@@ -2,6 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/10 все работает" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/6 просмотр таблици" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/7 удаление записи" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/8 добавление пользователя" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dumps/old" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/old" vcs="Git" />
   </component>
