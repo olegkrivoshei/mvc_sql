@@ -11,7 +11,7 @@ class AdminController extends Controller {
         $vars = [
             'news' => $result,
         ];
-        $this->view->render('Главная страница', $vars);
+        $this->view->render('View', $vars);
     }
 
     public function dropAction() {

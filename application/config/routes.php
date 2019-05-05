@@ -35,16 +35,5 @@ return [
         'action' => 'index_edit_user',
     ],
 
-
-    'account/login' => [
-		'controller' => 'account',
-		'action' => 'login',
-	],
-
-	'account/register' => [
-		'controller' => 'account',
-		'action' => 'register',
-	],
-
 	
 ];

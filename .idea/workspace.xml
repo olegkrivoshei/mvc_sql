@@ -2,549 +2,231 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64118552-1f92-449c-888f-063c92575796" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/admin/index_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/admin/index_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/10 все работает/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/10 все работает/application/views/admin/index_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/10 все работает/application/views/admin/index_edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/6 просмотр таблици/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/7 удаление записи/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/admin/index_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/admin/index_add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/admin/index_edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/localhost.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/localhost.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/acl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/acl/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/acl/account.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/AccountController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/acl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/acl/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/core/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/application/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/10 все работает/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/new/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/models/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/10 все работает/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/6 просмотр таблици/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/6 просмотр таблици/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/application/models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/6 просмотр таблици/application/models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/application/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/6 просмотр таблици/application/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/6 просмотр таблици/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/new/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/models/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/6 просмотр таблици/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/acl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/acl/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/application/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/7 удаление записи/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/new/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/models/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/7 удаление записи/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/acl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/acl/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/core/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/application/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/8 добавление пользователя/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/new/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/models/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/8 добавление пользователя/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/acl/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/acl/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/controllers/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/controllers/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/core/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/models/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/models/Admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/application/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/new/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/acl/account.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/acl/admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/acl/main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/config/db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/config/routes.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/core/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/core/Model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/core/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/core/View.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/lib/Db.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/models/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/models/Main.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/account/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/account/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/application/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/db.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/public/scripts/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dumps/9 вивод для изменения пользователя/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/application/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/11/application/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/application/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/11/application/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/10 все работает" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/6 просмотр таблици" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/7 удаление записи" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/8 добавление пользователя" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/9 вивод для изменения пользователя" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.idea/localhost.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/acl/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/acl/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/core/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/lib/Db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/lib/Dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/models/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/views/account/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/views/account/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/views/errors/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/views/errors/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/application/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/new/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/acl/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/acl/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/core/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/models/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/acl/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/acl/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/acl/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/core/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/lib/Db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/models/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/models/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/account/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/account/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/application/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/11/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/12 работает логер/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/application/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/12 работает логер/application/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/10 все работает" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/6 просмотр таблици" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/7 удаление записи" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/8 добавление пользователя" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/9 вивод для изменения пользователя" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.idea/localhost.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/acl/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/acl/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/core/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/lib/Db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/lib/Dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/models/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/views/account/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/views/account/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/views/errors/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/views/errors/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/application/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/new/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/acl/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/acl/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/acl/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/core/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/lib/Db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/lib/Dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/models/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/views/account/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/views/account/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/views/errors/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/views/errors/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/application/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_admin/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.idea/localhost.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/acl/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/acl/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/acl/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/config/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/controllers/AccountController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/controllers/AdminController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/controllers/MainController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/core/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/core/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/core/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/core/View.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/lib/Db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/lib/Dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/models/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/models/Main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/account/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/account/register.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/errors/403.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/errors/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/layouts/default.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/application/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/dumps/work_all/public/scripts/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dumps/12 работает логер/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dumps/12 работает логер/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/jquery.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -552,13 +234,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="221">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -566,17 +269,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/Admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/View.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="663">
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -584,56 +278,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="646">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/index.php">
+        <entry file="file://$PROJECT_DIR$/application/models/logs/logs.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="8" />
               <folding>
-                <element signature="e#3#40#0#HTML" expanded="true" />
+                <element signature="e#6#8#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/index_edit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/acl/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/Main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -669,17 +332,29 @@
         <option value="$PROJECT_DIR$/application/core/View.php" />
         <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
         <option value="$PROJECT_DIR$/application/views/admin/index_add.php" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/acl/admin.php" />
-        <option value="$PROJECT_DIR$/application/models/Admin.php" />
-        <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/application/views/admin/index_edit.php" />
         <option value="$PROJECT_DIR$/application/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/application/core/Router.php" />
+        <option value="$PROJECT_DIR$/app.log" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/models/Admin.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/controllers/AdminController.php" />
+        <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
+    <option name="x" value="88" />
     <option name="width" value="683" />
     <option name="height" value="738" />
   </component>
@@ -689,7 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -697,90 +371,23 @@
               <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
               <item name="localhost" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="acl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
-              <item name="localhost" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\localhost\application\views\admin" />
       <recent name="C:\OSPanel\domains\localhost\application\models" />
+      <recent name="C:\OSPanel\domains\localhost\application\views\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -807,7 +414,9 @@
       <updated>1556909781286</updated>
       <workItem from="1556909788193" duration="4764000" />
       <workItem from="1556966168542" duration="12740000" />
-      <workItem from="1556985706623" duration="14696000" />
+      <workItem from="1556985706623" duration="14861000" />
+      <workItem from="1557080542671" duration="683000" />
+      <workItem from="1557081306432" duration="578000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1556910588565</created>
@@ -830,25 +439,40 @@
       <option name="project" value="LOCAL" />
       <updated>1556914483072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Everything work">
+      <created>1557000537736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557000537737</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Everything work all">
+      <created>1557000590759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557000590759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32200000" />
+    <option name="totallyTimeSpent" value="36006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32850242" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32045087" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -888,28 +512,20 @@
     <MESSAGE value="start" />
     <MESSAGE value="all work" />
     <MESSAGE value="all work fine" />
-    <option name="LAST_COMMIT_MESSAGE" value="all work fine" />
+    <MESSAGE value="Everything work" />
+    <MESSAGE value="Everything work all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Everything work all" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/acl/account.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/acl/account.php" />
     <entry file="file://$PROJECT_DIR$/application/views/account/login.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/account/register.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/lib/Dev.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -918,51 +534,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AccountController.php" />
     <entry file="file://$PROJECT_DIR$/s.php" />
-    <entry file="file://$PROJECT_DIR$/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1.php" />
+    <entry file="file://$PROJECT_DIR$/db.sql" />
     <entry file="file://$PROJECT_DIR$/application/core/Model.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/lib/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dumps/6 просмотр таблици/application/core/View.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1016,31 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/core/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="27" column="28" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1060,6 +616,80 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.log" />
+    <entry file="file://$PROJECT_DIR$/application/models/vendor/psr/log/Psr/Log/Test/TestLogger.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modelslogs/logs.log" />
+    <entry file="file://$PROJECT_DIR$/application/core/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="8" />
+          <folding>
+            <element signature="e#6#8#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/logs/logs.log">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dumps/10 все работает" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dumps/12 работает логер" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dumps/6 просмотр таблици" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dumps/7 удаление записи" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/dumps/8 добавление пользователя" vcs="Git" />
